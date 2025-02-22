@@ -1,26 +1,44 @@
 header {
   width: 100%;
-  padding: 1.8rem 64px;
-
+  padding: 1.6rem 80px;
 }
 
 #navbar {
-  width: 100;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+#nav-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #nav-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   color: var(--color-primary-6);
+}
+
+#nav-logo-rest-text {
+  position: relative;
+}
+
+#nav-logo-rest-text h2 {
+  line-height: 0.1;
+  font-size: 1.25rem;
+  color: var(--color-primary-7);
+
 }
 
 #nav-logo h2,
 i {
   font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 #nav-list {
