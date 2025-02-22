@@ -2,14 +2,20 @@
 
 :root {
   --main-bg: #f5ecd6;
+  --color-primary-1: #fff9ea;
+  --color-primary-2: #ffe8b4;
+  --color-primary-3: #f8d477;
+  --color-primary-4: #ffe100;
+  --color-primary-5: #ffcb45;
+  --color-primary-6: #e9a209;  
 
+  --text-primary: #1d1d1d;
 
   /*DEBUG variables*/
   --debug-color-g1: #191919;
   --debug-color-g2: #3f3f3f;
   --debug-color-g3: #6a6a6a;
   --debug-color-g4: #949494;
-
 }
 
 * {
@@ -17,29 +23,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", serif;
-  background-color: var(--main-bg);
+  background-color: var(--main-bg);  
+}
+
+li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .hidden {
   display: none;
 }
 
-header {
-  width: 100%;
-  padding: 1.8rem 64px;
-  background-color: var(--debug-color-g1);
-}
 
-#navbar {
-  width: 100;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--debug-color-g2);
-}
 
-#nav-list {
-  display: flex;
-  gap: 2rem;
-}
+

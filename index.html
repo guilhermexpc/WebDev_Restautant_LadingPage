@@ -9,13 +9,41 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Restaurant Lading Page</title>
   <link rel="stylesheet" href="src/style/style.css">
+  <link rel="stylesheet" href="src/style/components.css">
+  <link rel="stylesheet" href="src/style/header.css">
 </head>
 
 <body>
   <header>
     <nav id="navbar">
-      <i class="fa-solid fa-utensils">Food Restaurant</i>
+      <div id="nav-logo">
+        <i class="fa-solid fa-utensils" id="navlogo"></i>
+        <h2>Food Restaurant</h2>
+      </div>
       <ul id="nav-list">
+        <li #id="" class="nav-list-item active">
+          <a href="#home">Inicio</a>
+        </li>
+        <li #id="" class="nav-list-item">
+          <a href="#restaurant-menu">Cardápio</a>
+        </li>
+        <li #id="" class="nav-list-item">
+          <a href="#review">Avaliações</a>
+        </li>
+      </ul>
+
+      <button class="btn-default">
+        peça aqui
+      </button>
+
+      <button id="mobile-btn-menu" class="">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <div id="mobile-navmenu" class="">
+      <i class="fa-solid fa-utensils">Food Restaurant</i>
+      <ul id="mobile-nav-list">
         <li #id="home" class="nav-list-item">Inicio</li>
         <li #id="restaurant-menu" class="nav-list-item">Cardápio</li>
         <li #id="review" class="nav-list-item">Avaliações</li>
@@ -25,24 +53,7 @@
         peça aqui
       </button>
 
-      <button id="mobile-menu" class="hidden">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-      <div id="mobile-nav-menu" class="hidden">
-        <i class="fa-solid fa-utensils">Food Restaurant</i>
-        <ul id="mobile-nav-list">
-          <li #id="home" class="nav-list-item">Inicio</li>
-          <li #id="restaurant-menu" class="nav-list-item">Cardápio</li>
-          <li #id="review" class="nav-list-item">Avaliações</li>
-        </ul>
-
-        <button class="btn-default">
-          peça aqui
-        </button>
-
-      </div>
-    </nav>
+    </div>
   </header>
 </body>
 
