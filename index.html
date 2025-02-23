@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="src/style/style.css">
   <link rel="stylesheet" href="src/style/components.css">
   <link rel="stylesheet" href="src/style/header.css">
+
+  <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+
 </head>
 
 <body>
@@ -18,11 +21,11 @@
     <nav id="navbar">
       <div id="nav-logo-container">
         <div id="nav-logo">
-          <i class="fa-solid fa-utensils" id="navlogo"></i>        
-          <h2>Food</h2>  
+          <i class="fa-solid fa-utensils" id="navlogo"></i>
+          <h2>Food</h2>
         </div>
         <div id="nav-logo-rest-text">
-          <h2>Restaurant</h2>   
+          <h2>Restaurant</h2>
         </div>
       </div>
       <ul id="nav-list">
@@ -41,13 +44,13 @@
         peça aqui
       </button>
 
-      <button id="mobile-btn-menu" class="">
+      <button id="mobile-btn-menu">
         <i class="fa-solid fa-bars"></i>
       </button>
     </nav>
 
-    <div id="mobile-navmenu" class="">
-      <i class="fa-solid fa-utensils">Food Restaurant</i>
+    <div id="mobile-navmenu" class="mobile-menu-active">
+      
       <ul id="mobile-nav-list">
         <li #id="home" class="nav-list-item">Inicio</li>
         <li #id="restaurant-menu" class="nav-list-item">Cardápio</li>
@@ -60,6 +63,30 @@
 
     </div>
   </header>
+
+  <main>
+  </main>
+
+  <footer>
+    <div class="debug">
+      <h4 id="screenSize">Screen Size: </h2>
+    </div>
+  </footer>
+
+  <script>
+    // Função para atualizar o tamanho da tela
+    function updateScreenSize() {
+      var width = window.innerWidth;
+      var height = window.innerHeight;
+      document.getElementById('screenSize').textContent = 'Screen Size ' + width + 'px  x ' + height + 'px';
+    }
+    updateScreenSize();
+    // Atualiza o tamanho da tela sempre que a janela for redimensionada
+    window.onresize = updateScreenSize;
+  </script>
+
+  <script src="src/js/script.js"></script>
+
 </body>
 
 </html>

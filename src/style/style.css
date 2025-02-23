@@ -10,13 +10,15 @@
   --color-primary-6: #e9a209;
   --color-primary-7: #cd8f09;
 
-  --text-primary: #1d1d1d;
-
+  --text-primary-1: #1d1d1d;
+  --text-primary-1-light: #1d1d1da8;
   /*DEBUG variables*/
+  --debug-showElement: block;
   --debug-color-g1: #191919;
   --debug-color-g2: #3f3f3f;
   --debug-color-g3: #6a6a6a;
   --debug-color-g4: #949494;
+
 }
 
 * {
@@ -24,7 +26,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", serif;
-  background-color: var(--main-bg);  
+  background-color: var(--main-bg);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.debug {
+  display: var(--debug-showElement);
+  font-size: 12px;
+  font-weight: 400;
 }
 
 li {
@@ -37,4 +51,8 @@ a {
 
 .hidden {
   display: none;
+}
+
+main {
+  flex: 1;
 }
