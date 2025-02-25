@@ -1,0 +1,21 @@
+#product-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.product-card-favorit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "img": "src/images/produtos/dish.png",
+    "title": "Prato Especial 1",
+    "description": "Uma deliciosa refeição feita com carinho.",
+    "rating": 3,
+    "price": "R$ 29,90",
+    "reviews": "(200+)"
+  },
+  {
+    "img": "src/images/produtos/dish2.png",
+    "title": "Prato Especial 2",
+    "description": "Sabores únicos para sua refeição.",
+    "rating": 5,
+    "price": "R$ 34,90",
+    "reviews": "(150+)"
+  },
+  {
+    "img": "src/images/produtos/dish3.png",
+    "title": "Prato Especial 3",
+    "description": "Uma experiência gastronômica incrível.",
+    "rating":4,
+    "price": "R$ 39,90",
+    "reviews": "(300+)"
+  },
+  {
+    "img": "src/images/produtos/dish4.png",
+    "title": "Prato Especial 4",
+    "description": "O sabor que vai até você!",
+    "rating": 3,
+    "price": "R$ 24,90",
+    "reviews": "(120+)"
+  }
+]

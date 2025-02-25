@@ -59,6 +59,7 @@ i {
 #mobile-btn-menu {
   border: none;
   display: none;
+  background-color: transparent;
 }
 
 #mobile-btn-menu i {
@@ -71,8 +72,7 @@ i {
   display: none;
 }
 
-@media screen and (max-width: 1060px) {
-
+@media screen and (max-width: 1170px) {
   #nav-list,
   #navbar .btn-default {
     display: none;
@@ -100,9 +100,4 @@ i {
     color: var(--text-primary-1-light);
     font-weight: 600;
   }
-
-
-
-
-
 }

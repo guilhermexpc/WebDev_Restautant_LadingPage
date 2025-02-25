@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="src/style/components.css">
   <link rel="stylesheet" href="src/style/header.css">
   <link rel="stylesheet" href="src/style/home.css">
+  <link rel="stylesheet" href="src/style/products.css">
 
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
 </head>
@@ -49,7 +50,7 @@
       </button>
     </nav>
 
-    <div id="mobile-navmenu" class="mobile-menu-active">
+    <div id="mobile-navmenu" class="">
 
       <ul id="mobile-nav-list">
         <li #id="home" class="nav-list-item">Inicio</li>
@@ -63,18 +64,17 @@
 
     </div>
   </header>
-
   <main id="content">
     <section id="home">
       <div id="cta">
-        <h1 class="title">O sabor que vai até <span>você</span></h1>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ea rerum itaque corrupti
-          assumenda in nisi.</p>
-
+        <h1 class="section-maintitle">O sabor que vai até <span>você</span></h1>
+        <p class="description">Descubra um mundo de sabores irresistíveis, preparados com carinho e amor. Cada mordida é
+          uma explosão de prazer, feita para tornar seu dia mais doce e especial!</p>
         <div id="cta-buttons">
           <button class="btn-default">
             <a href="">Ver cardápio</a>
           </button>
+
           <a href="tel:+5599885556">
             <button class="btn-default btn-phone">
               <i class="fa-solid fa-square-phone phoneh"></i>(49) 9988-7760
@@ -93,10 +93,6 @@
             <i class="fa-brands fa-facebook-f"></i>
           </a>
         </div>
-
-
-
-
       </div>
 
       <div id="banner">
@@ -104,10 +100,20 @@
         <img src="src/images/restaurant.svg" alt="">
       </div>
     </section>
-    <section id="">
-      <div></div>
+    <section id="products">
+      <div id="products-container">
+        <div id="products-title">
+          <h2 class="section-title">Cardápio</h2>
+          <h3 class="section-subtitle">Nossos pratos especiais</h3>
+        </div>
+        <hr>
+        <div id="product-card">
+          
+        </div>
+      </div>
+
     </section>
-    <section id="">
+    <section id="reviews">
       <div></div>
     </section>
   </main>
@@ -117,21 +123,7 @@
       <h4 id="screenSize">Screen Size: </h2>
     </div>
   </footer>
-
-  <script>
-    // Função para atualizar o tamanho da tela
-    function updateScreenSize() {
-      var width = window.innerWidth;
-      var height = window.innerHeight;
-      document.getElementById('screenSize').textContent = 'Screen Size ' + width + 'px  x ' + height + 'px';
-    }
-    updateScreenSize();
-    // Atualiza o tamanho da tela sempre que a janela for redimensionada
-    window.onresize = updateScreenSize;
-  </script>
-
   <script src="src/js/script.js"></script>
-
 </body>
 
 </html>
