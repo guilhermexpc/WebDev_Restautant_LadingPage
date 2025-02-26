@@ -3,6 +3,7 @@
 :root {
   --main-bg: #fff9ea;
   --color-primary-1: #fff9ea;
+  --color-primary-1-dark: #fff6e0;
   --color-primary-2: #ffe8b4;
   --color-primary-3: #f8d477;
   --color-primary-4: #ffe100;
@@ -85,5 +86,5 @@ hr {
 
 .subtitle {
   font-size: 2rem;
-  color: var(text-primary-1);
+  color: var(--text-primary-1);
 }
