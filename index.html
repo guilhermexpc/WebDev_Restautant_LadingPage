@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="src/style/header.css">
   <link rel="stylesheet" href="src/style/home.css">
   <link rel="stylesheet" href="src/style/products.css">
+  <link rel="stylesheet" href="src/style/reviews.css">
+  <link rel="stylesheet" href="src/page/components/card.html">
+
 
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
 </head>
@@ -107,14 +110,67 @@
           <h3 class="subtitle">Nossos pratos especiais</h3>
         </div>
         <hr>
-        <div id="product-card">        
+        <div id="product-card">
         </div>
         <hr>
       </div>
-
     </section>
     <section id="reviews">
-      <div></div>
+      <img src="src/images/reviews/chef.png" alt="" id="review-chef">
+      <div id="reviews-content">
+        <div id="review-content-inside">
+          <div class="review-title">
+            <h2 class="title">Depoimentos</h2>
+            <h3 class="subtitle">O que os clientem falam sobre a nos</h3>
+          </div>
+
+          <div class="review-card">
+            <div class="review-card-item">
+              <img src="src/images/reviews/avatar.png" alt="">
+              <div class="review-card-item-depoiment">
+                <h4 class="depoiment-name">Nome do depoente
+                  <div class="rating">
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-regular fa-star"></i> </span>
+                    <span> <i class="fa-regular fa-star"></i> </span>
+                  </div>
+                </h4>
+                <p class="depoiment-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  saepe</p>
+              </div>
+            </div>
+
+            <div class="review-card-item">
+              <img src="src/images/reviews/avatar.png" alt="">
+              <div class="review-card-item-depoiment">
+                <h4 class="depoiment-name">Nome do depoente
+                  <div class="rating">
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-solid fa-star"></i> </span>
+                    <span> <i class="fa-regular fa-star"></i> </span>
+                    <span> <i class="fa-regular fa-star"></i> </span>
+                  </div>
+                </h4>
+                <p class="depoiment-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  saepe
+                  cumque, ipsa amet iste laboriosam porro excepturi mollitia vitae minus autem dicta.</p>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="review-button">
+          <button class="btn-default">Ver mais avaliações</button>
+        </div>
+      </div>
+
     </section>
   </main>
 
