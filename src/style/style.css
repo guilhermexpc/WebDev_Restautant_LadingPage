@@ -8,9 +8,12 @@
   --color-primary-4: #ffe100;
   --color-primary-5: #ffcb45;
   --color-primary-6: #e9a209;
+  --color-primary-6-light: ##e9a20990;
   --color-primary-7: #cd8f09;
+  --color-neutral-1: #ffffff;
 
   --text-primary-1: #1d1d1d;
+  --text-primary-2: #353535;
   --text-primary-1-light: #1d1d1da8;
   --textshadow-1: #cc9f52;
 
@@ -34,7 +37,7 @@
 
 body {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   background-color: var(--main-bg);
 }
 
@@ -67,4 +70,20 @@ i {
 
 footer {
   background-color: var(--debug-color-g3);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
+.title {
+  font-size: 1.75rem;
+  color: var(--color-primary-6);
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: var(text-primary-1);
 }

@@ -1,11 +1,10 @@
 section {
   padding: 26px 8vw;
+  min-height: calc(100vh - 90px);
 }
 
 #home {
   display: flex;
-  min-height: calc(100vh - 90px);
-
   position: relative;
 }
 
@@ -19,7 +18,7 @@ section {
   justify-content: center;
 }
 
-.section-maintitle {
+.maintitle {
   font-size: 4rem;
   color: var(--text-primary-1);
 }
