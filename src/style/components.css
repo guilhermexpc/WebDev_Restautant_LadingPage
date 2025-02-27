@@ -37,13 +37,13 @@
   background-color: var(--color-primary-5);
 }
 
-.socialmedia-buttons{
-  display: flex;  
+.socialmedia-buttons {
+  display: flex;
   gap: 16px;
 }
 
 .socialmedia-buttons a {
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 35px;
@@ -59,4 +59,21 @@
 
 .socialmedia-buttons a:hover {
   background-color: var(--color-primary-5);
+}
+
+.btn-square a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: var(--color-primary-5);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px #cc9f52;
+  transition: background-color .3s ease;
+}
+
+.btn-square a:hover {
+  background-color: #ffffff;
 }

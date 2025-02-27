@@ -67,7 +67,12 @@ footer {
   } 
 }
 
-
+#scroll-to-top {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 10;
+}
 
 @media screen and (max-width: 600px) {
   #footer-items {

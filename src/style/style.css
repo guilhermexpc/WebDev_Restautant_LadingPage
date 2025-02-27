@@ -28,7 +28,11 @@
   --debug-color-g5: #dadada;
   --debug-color-g6: #bcbcbc;
 
-  --debug
+  
+}
+
+html {
+  /* scroll-behavior: smooth; */
 }
 
 * {
