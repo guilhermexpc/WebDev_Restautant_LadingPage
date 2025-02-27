@@ -27,6 +27,8 @@
   --debug-color-g4: #949494;
   --debug-color-g5: #dadada;
   --debug-color-g6: #bcbcbc;
+
+  --debug
 }
 
 * {
@@ -67,10 +69,6 @@ main {
 
 i {
   font-size: 1rem;
-}
-
-footer {
-  background-color: var(--debug-color-g3);
 }
 
 hr {

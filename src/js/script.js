@@ -2,11 +2,8 @@ const productCard = "src/page/components/card.html"
 // JQuery function - Adiciona ou remove uma classe quando o botão for clicado
 mobileBtnMenu = '#mobile-btn-menu';
 mobileNavMenu = '#mobile-navmenu';
-$(document).ready(() => {
-  $(mobileBtnMenu).on("click", () => {
-    $(mobileNavMenu).toggleClass('mobile-menu-active');
-  })
-});
+
+
 
 function loadProducts() {
   $.getJSON("products.json", (item) => {
@@ -56,9 +53,31 @@ function loadProducts() {
 }
 
 
+function animations() {
+  const sections = $('section');
+  const navItems = $('.nav-list-item');
+
+  $(window).on('scroll', () => {
+    const header = $('header');
+    const scrollPosition = $(window).scrollTop() - header.outerHeight();
+
+    console.log(scrollPosition);
+    
+  })
+}
+
 $(document).ready(function () {
   loadProducts();
+  animations();
+
+  $(document).ready(() => {
+    $(mobileBtnMenu).on("click", () => {
+      $(mobileNavMenu).toggleClass('mobile-menu-active');
+    })
+  });
 });
+
+
 
 // Função para atualizar o tamanho da tela
 function updateScreenSize() {
