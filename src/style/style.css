@@ -19,6 +19,8 @@
   --textshadow-1: #cc9f52;
 
   --mediascreen-desktop: 1060px;
+  --header-height: 91px;
+
   /*DEBUG variables*/
   --debug-showElement: block;
   --debug-color-g1: #191919;
@@ -27,6 +29,7 @@
   --debug-color-g4: #949494;
   --debug-color-g5: #dadada;
   --debug-color-g6: #bcbcbc;
+  
 
   
 }
@@ -87,6 +90,6 @@ hr {
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: var(--text-primary-1);
 }
